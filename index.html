@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solvers</title>
+    <link rel="icon" type="image" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-sm custom-nav">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="fa fa-bars"></span>
+	</button>
+        <h1 class="navbar-brand mb-0" href="#">
+            <img src="./img/SolverLogo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"> Solvers
+        </h1>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="AboutUsLink" class="nav-link" href="#firstDiv">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a id="ContactUsLink" class="nav-link" href="#secondDiv">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="titleDiv">
+        <div class="container-text">
+            <img src="./img/SolverLogo.png" alt="Logo" class="img-fluid rounded-circle">
+            <h1>SOLVERS</h1>
+            <h2>Your Problems, We Solve</h2>
+        </div>
+    </div>
+
+    <div id="firstDiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><i class="fa fa-eye" aria-hidden="true"></i></p>
+                    <h1>VISION</h1>
+                    <p>You dream it, we make it.</p>
+                    <p> We believe that anything can be solved using technology, it is just the problem of time.</p>
+                </div>
+                <div class="col-md-4">
+                    <p><i class="fa fa-tasks" aria-hidden="true"></i></p>
+                    <h1>MISSION</h1>
+                    <p>Turns public's ideas into realistic technology.</p>
+                    <p> We use our skills to change ideas into a real technology.</p>
+                </div>
+                <div class="col-md-4">
+                    <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i></p>
+                    <h1>GOAL</h1>
+                    <p>Enhance people's life by providing technology solutions.</p>
+                    <p> Eventually, we change the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="secondDiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="successAlert" style="display:none;" class="alert alert-success" role="alert">
+                        <strong>Thank You!</strong> You have successfully submit the form.
+                    </div>
+                    <div id="errorAlert" style="display:none;" class="alert alert-warning" role="alert">
+                        <strong>Sorry.</strong> Please enter the correct information.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="img-fluid rounded" src="https://static.pexels.com/photos/159353/survey-opinion-research-voting-fill-159353.jpeg"
+                        alt="survey">
+                    <h2>QUESTIONS | OPINIONS </h2>
+                    <p>Your point of view is essentially important for us. Feel free to contact us!</p>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-5 rounded">
+                    <form id="enquiryForm">
+                        <h1 class="text-center">FORM</h1>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="sr-only" for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="question">Description</label>
+                                <textarea class="form-control" id="question" placeholder="Type your description here"></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <hr />
+        <div class="container">
+            <div id="footer" class="text-center">
+                <!--<img id="footerLogo" src="./img/SolverLogo.png" width="40" height="40" class="d-inline-block adivgn-top rounded-circle" alt="logo">-->
+                <a class="btn btn-social-icon btn-fb rounded-circle" href="https://www.facebook.com/SolversMY/"><i class="fa fa-facebook-official "></i></a>
+                <a class="btn btn-social-icon btn-tw rounded-circle" href="https://twitter.com/SolversTeam2017"><i class="fa fa-twitter "></i></a>
+                <a class="btn btn-social-icon btn-git rounded-circle" href="https://github.com/qihaomah"><i class="fa fa-github "></i></a>
+                <a class="btn btn-social-icon btn-ins rounded-circle" href="https://www.instagram.com/solversteam2017/"><i class="fa fa-instagram "></i></a>
+                <a class="btn btn-social-icon btn-yt rounded-circle" href="https://www.youtube.com/channel/UCSj5NiawpQLadzsEfXRDaAQ"><i class="fa fa-youtube-play "></i></a>
+            </div>
+            <p id="footerText" class="text-center">Solvers 2017</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
