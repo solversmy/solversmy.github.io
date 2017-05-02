@@ -11,7 +11,9 @@
 	justify-content: center;
 	align-items: center;
 }
-
+html,body{
+	height:100%;
+}
 #titleDiv img{
 	width:240px;
 	height:240px;
@@ -45,7 +47,8 @@
 }
 #firstDiv{
 	width:100%;
-	background-color:#f7f7f9;
+	background-color:#252525;
+	color:white;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -75,14 +78,20 @@
 	font-size: 20px;
 }
 #secondDiv{
-	background-color:#eaeaea;
+	/*background-color:#eaeaea;*/
+	background:url("../img/coffee.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
 	display:flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: -80px;
 }
 @media (min-width:768px){
 	#secondDiv{
-		height:calc(100vh - 100px);
+		height:100vh;
 	}
 }
 @media (max-height:550px){
@@ -118,7 +127,8 @@
 	}
 }
 #secondDiv form{
-	background-color:#f7f7f9;
+	/*background-color:#f7f7f9;*/
+	background-color:rgba(0, 0, 0, 0.37);
 	padding:24px 18px;
 	box-shadow:0 5px 10px rgba(0,0,0,0.3);
 }
@@ -133,9 +143,12 @@
 #secondDiv p{
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
+	color: white;
 }
 #footerText{
 	font-family: 'Montserrat', sans-serif;
+	color:white;
+	margin-bottom:0px;
 }
 .btn-fb:focus, .btn-fb:hover {
     background-color: #4264aa;
@@ -177,7 +190,7 @@
 	background-color:black;
 }
 #footer{
-	padding:10px 0px;
+
 }
 #footer i{
 	font-size:20px;
@@ -185,8 +198,5 @@
 #footer a{
 	margin-left:5px;
 	margin-right:5px;
-}
-hr{
-	margin-top:0;
 }
 /*https://static.pexels.com/photos/30954/pexels-photo-30954.jpg*/
