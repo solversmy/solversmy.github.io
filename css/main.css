@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 #titleDiv{
 	background-image:url("../img/castle.png");
+	background-color:#2d2d2d;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +79,7 @@ html,body{
 	font-size: 20px;
 }
 #secondDiv{
-	/*background-color:#eaeaea;*/
+	background-color:#2d2d2d;
 	background:url("../img/coffee.jpg");
 	background-attachment: fixed;
     background-position: center;
