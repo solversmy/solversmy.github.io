@@ -47,8 +47,8 @@ html,body{
 }
 #firstDiv{
 	width:100%;
-	background-color:#252525;
-	color:white;
+	background-color:#FFF;
+	/*color:white;*/
 	display:flex;
 	justify-content: center;
 	align-items: center;
